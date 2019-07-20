@@ -31,7 +31,7 @@ public class _00_TestSpecialString {
 		System.out.println(mcs);
 		assertEquals("tHiS Is aLsO A TeSt", mcs.toString());
 	}
-	
+	/*
 	//4. Create your own class that extends SpecialString.
 	//   Override the funkifyText method to make any kind of 
 	//   new String you want. Then use the assertEquals method in
@@ -40,4 +40,5 @@ public class _00_TestSpecialString {
 	public void testCustomString() {
 	
 	}
+	*/
 }

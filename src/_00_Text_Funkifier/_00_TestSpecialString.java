@@ -36,9 +36,12 @@ public class _00_TestSpecialString {
 	//   Override the funkifyText method to make any kind of 
 	//   new String you want. Then use the assertEquals method in
 	//   the JUnitTest case below to test your customized Special String.
+	*/
 	@Test
 	public void testCustomString() {
-	
+	SpecialString string = new  FunkyString("Funky");
+	System.out.println(string);
+	assertEquals("FUNKy", string.toString());
 	}
-	*/
+	
 }

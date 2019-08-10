@@ -2,17 +2,18 @@ package _01_AnimalFarm;
 
 import java.util.ArrayList;
 
-public class Farm {
+public class Farm{
 public static void main(String[] args) {
-	ArrayList<String> farm = new ArrayList<String>();
-	farm.add("Cow");
-	farm.add("Sheep");
-	farm.add("Pig");
-	farm.add("Chicken");
-	farm.add("Rooster");
-	farm.add("Horse");
+	ArrayList<Animal> farm = new ArrayList<Animal>();
+	farm.add(new Cow());
+	farm.add(new Pig());
+	farm.add(new Sheep());
+	farm.add(new Chicken());
 	for(int i=0 ;i< farm.size(); i++) {
-		
+		farm.get(i).makeNoise();
 	}
 }
+
+
+
 }
